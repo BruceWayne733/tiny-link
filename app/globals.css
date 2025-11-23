@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f9fafb;
+}
+
+* { box-sizing: border-box; }
+
+input, button {
+  @apply border rounded-md px-3 py-2;
+}
+
+button.primary {
+  @apply bg-black text-white hover:bg-gray-800 transition;
+}
